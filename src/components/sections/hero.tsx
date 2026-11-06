@@ -59,7 +59,7 @@ export function Hero() {
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
               </Link>
               <a
-                href="#platform"
+                href="/platform"
                 className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-6 text-[14px] font-semibold text-bone backdrop-blur transition-colors hover:border-white/25 hover:bg-white/[0.07] sm:w-auto"
               >
                 <Play className="size-3.5 fill-current" aria-hidden />

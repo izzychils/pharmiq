@@ -148,7 +148,7 @@ export function SiteHeader() {
                       Built for community pharmacies and multi-branch groups.
                     </span>
                     <a
-                      href="#platform"
+                      href="/platform"
                       onClick={() => setOpen(false)}
                       className="inline-flex items-center gap-1 text-[11.5px] font-semibold text-mint-300"
                     >

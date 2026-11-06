@@ -123,7 +123,7 @@ export function Testimonials() {
             with the pharmacy&apos;s written permission.
           </p>
           <a
-            href="#pricing"
+            href="/pricing"
             className="inline-flex min-h-9 shrink-0 items-center gap-1.5 text-[12px] font-semibold text-mint-300 hover:text-mint-200"
           >
             Read the pilot notes
