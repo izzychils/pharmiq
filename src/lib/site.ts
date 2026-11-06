@@ -4,54 +4,58 @@ export const SITE = {
   tagline: "AI for pharmacy operations",
   description:
     "Batch-level inventory, expiry control, FEFO dispensing and a verified clinical assistant in one calm workspace.",
+  company: "Ivents",
+  companyLine: "Pharmiq is a product of Ivents.",
   email: "hello@pharmiq.online",
   phone: "+234 812 000 4488",
   city: "Lagos, Nigeria",
+  location: "Lagos, Nigeria",
+  lastUpdated: "4 November 2026",
 };
 
 export const MARKETING_NAV = [
-  { label: "Platform", href: "#platform" },
-  { label: "Expiry control", href: "#expiry" },
-  { label: "Assistant", href: "#assistant" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Platform", href: "/platform" },
+  { label: "Expiry control", href: "/expiry" },
+  { label: "Assistant", href: "/assistant" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "FAQ", href: "/faq" },
 ] as const;
 
 export const PLATFORM_MENU = [
   {
     title: "Inventory & batches",
     description: "Every pack, every batch, every shelf location.",
-    href: "#platform",
+    href: "/platform",
     icon: "boxes",
   },
   {
     title: "Expiry command centre",
     description: "See value at risk before it becomes a write-off.",
-    href: "#expiry",
+    href: "/expiry",
     icon: "calendar",
   },
   {
     title: "FEFO dispensing",
     description: "Earliest expiry first, enforced at the counter.",
-    href: "#fefo",
+    href: "/fefo",
     icon: "scan",
   },
   {
     title: "Prescription workflow",
     description: "Intake, verification, dispensing and handover.",
-    href: "#platform",
+    href: "/platform",
     icon: "clipboard",
   },
   {
     title: "Reorder intelligence",
     description: "Suggested quantities from real dispensing velocity.",
-    href: "#platform",
+    href: "/platform",
     icon: "trending",
   },
   {
     title: "Clinical assistant",
     description: "Answers with sources your pharmacist can audit.",
-    href: "#assistant",
+    href: "/assistant",
     icon: "sparkles",
   },
 ] as const;

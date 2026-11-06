@@ -7,10 +7,10 @@ const COLUMNS = [
   {
     title: "Platform",
     links: [
-      { label: "Inventory & batches", href: "/#platform" },
-      { label: "Expiry control", href: "/#expiry" },
-      { label: "FEFO dispensing", href: "/#fefo" },
-      { label: "Clinical assistant", href: "/#assistant" },
+      { label: "Inventory & batches", href: "/platform" },
+      { label: "Expiry control", href: "/expiry" },
+      { label: "FEFO dispensing", href: "/fefo" },
+      { label: "Clinical assistant", href: "/assistant" },
       { label: "Reorders", href: "/dashboard/reorders" },
     ],
   },
@@ -20,17 +20,18 @@ const COLUMNS = [
       { label: "Open demo", href: "/dashboard" },
       { label: "Sign in", href: "/sign-in" },
       { label: "Create account", href: "/sign-up" },
-      { label: "Pricing", href: "/#pricing" },
-      { label: "FAQ", href: "/#faq" },
+      { label: "Pricing", href: "/pricing" },
+      { label: "FAQ", href: "/faq" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About", href: "/#trust" },
+      { label: "About", href: "/trust" },
+      { label: "Company Verification", href: "/verify" },
       { label: "Contact", href: `mailto:${SITE.email}` },
-      { label: "Clinical sources", href: "/#sources" },
-      { label: "Security", href: "/#sources" },
+      { label: "Clinical sources", href: "/sources" },
+      { label: "Security", href: "/sources" },
     ],
   },
 ] as const;
