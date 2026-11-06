@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   },
   description:
     "Pharmiq is the AI operating system for pharmacies: batch and expiry control, FEFO dispensing, prescription workflows, reorder intelligence and a clinical assistant staff can actually audit.",
+  icons: {
+    icon: "/icon.svg",
+  },
   keywords: [
     "pharmacy software",
     "pharmacy inventory",
