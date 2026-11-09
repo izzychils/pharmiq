@@ -4,8 +4,8 @@ export const SITE = {
   tagline: "AI for pharmacy operations",
   description:
     "Batch-level inventory, expiry control, FEFO dispensing and a verified clinical assistant in one calm workspace.",
-  company: "Ivents",
-  companyLine: "Pharmiq is a product of Ivents.",
+  company: "Pharmiq", // "Ivents",
+  companyLine: "Pharmiq", // "Pharmiq is a product of Ivents.",
   email: "hello@pharmiq.online",
   phone: "+234 812 000 4488",
   city: "Lagos, Nigeria",

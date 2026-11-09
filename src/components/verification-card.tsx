@@ -15,11 +15,11 @@ interface CompanyRecord {
   country: string;
 }
 
-// Official Pharmiq/Ivents company record
+// Official Pharmiq company record
 const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "PQ-2026-00001",
-    companyName: "Ivents",
+    companyName: "Pharmiq", // "Ivents",
     website: "pharmiq.online",
     status: "Verified",
     registrationDate: "2026-01-10",
